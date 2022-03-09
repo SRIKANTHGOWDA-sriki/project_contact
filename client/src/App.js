@@ -52,7 +52,7 @@ function App() {
       <div className="information">
         
         <label>Enter your first Name:</label>
-        <input  type="text" name="first_name" placeholder="What's your first name"  autoComplete='off' onChange={(event) =>{
+        <input  type="text" name="first_name"  placeholder="What's your first name"  autoComplete='off' onChange={(event) =>{
           setFirstName(event.target.value) ;
         }}>
         </input>
