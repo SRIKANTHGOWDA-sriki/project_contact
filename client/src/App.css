@@ -23,18 +23,22 @@
   align-items:center;
 }
 .information input {
-  border:0;
+  border-width: 0px;
   border-bottom:1px solid #555;  
   background:transparent;
   width: 30%;
   padding:15px 0 8px 0;
   font-size:16px;
+  padding-inline-start: 10px;
   color:#fff; 
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
 }
 .information button{
   height:50px;
   margin-top:20px;
+  margin-bottom: 20px;
   margin-bottom: 30;
   border:0;
   background:transparent;
@@ -54,13 +58,15 @@
   padding:10px;
   margin-top:6px;
 }
-
+label{
+  margin-bottom:5px;
+}
 .message textarea{
   width:600px;
   height:70px;
   font-size:15px;
   margin:5px;
-  padding:40px; 
+  padding-inline-start: 30px;
   border:0;
   border-bottom:1px solid #555;  
   background:transparent;
@@ -68,6 +74,8 @@
   padding:15px 0 20px 0;
   font-size:16px;
   color:#fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 ::placeholder{
@@ -92,6 +100,9 @@
   background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images/back.jpg);
   background-size:cover;
   background-position: center;
+}
+h1{
+  padding-bottom: 30px;
 }
 h1 h2 
 {
